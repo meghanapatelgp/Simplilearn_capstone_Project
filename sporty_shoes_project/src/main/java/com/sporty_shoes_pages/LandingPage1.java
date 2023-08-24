@@ -10,14 +10,14 @@ public class LandingPage1 {
 
 	@FindBy(linkText="New User? Register Here")
 	private WebElement register;
-	
-	
+
+
 	public LandingPage1(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	public void clickRegister(){
 		register.click();
 	}
-	
+
 }

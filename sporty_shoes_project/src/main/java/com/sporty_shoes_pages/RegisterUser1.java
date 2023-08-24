@@ -41,5 +41,4 @@ public class RegisterUser1 {
 		registerButton.click();
 	}
 	
-	
 }
